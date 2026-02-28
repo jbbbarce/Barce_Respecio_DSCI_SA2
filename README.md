@@ -1,4 +1,8 @@
 # Barce_Respecio_DSCI_SA2
+---
+Barce, John Bernard B.
+Respecio, Luis Arnold N.
+
 
 A Data Science project implementing and evaluating **YOLOv26n** for real-time pedestrian behavior detection. Three models were trained with distinct hyperparameter configurations and compared across overall and per-class performance metrics.
 
