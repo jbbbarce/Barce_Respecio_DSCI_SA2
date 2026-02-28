@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['crossing', 'jaywalking', 'pedestrain', 'waiting']
+
+roboflow:
+  workspace: js-workspace-fbod7
+  project: testing-env-sa1-pedestrian-detection
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/js-workspace-fbod7/testing-env-sa1-pedestrian-detection/dataset/6
