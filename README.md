@@ -6,7 +6,7 @@ Respecio, Luis Arnold N.
 
 A Data Science project implementing and evaluating **YOLOv26n** for real-time pedestrian behavior detection. Three models were trained with distinct hyperparameter configurations and compared across overall and per-class performance metrics.
 
-**Dataset:** [Mapúa SharePoint Link]([https://mymailmapuaedu-my.sharepoint.com](https://mymailmapuaedu-my.sharepoint.com/:f:/g/personal/jbbbarce_mymail_mapua_edu_ph/IgDBqQuXuwCcQ7UWgp9v07ZJAUvYo8dVaGEEXRZd4OewxBQ?e=7IRb6u))
+**Dataset:** [Mapúa SharePoint Link](https://mymailmapuaedu-my.sharepoint.com)
 
 
 ---
