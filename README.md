@@ -35,32 +35,9 @@ Detect and classify four pedestrian behaviors from street-level images using the
 
 All models were initialized from `yolo26n.pt` pretrained weights and trained at `imgsz=640`.
 
----
-
-## 📊 Overall Validation Results
-
-| Model | mAP50 | mAP50-95 | Precision | Recall | F1 Score |
-|-------|-------|----------|-----------|--------|----------|
-| Model 1 (AdamW) | 0.5430 | 0.3180 | 0.5000 | 0.6140 | 0.5510 |
-| Model 2 (SGD) | 0.4340 | 0.2540 | 0.4080 | 0.5390 | 0.4660 |
-| **Model 3 (Auto)** | **0.6980** | **0.4470** | **0.6750** | **0.6600** | **0.6670** |
-
-> ✅ **Model 3** achieved the highest scores across all metrics.
 
 ---
 
-## 🔍 Per-Class Highlights
-
-| Class | Best Model | Best AP50 | Key Finding |
-|-------|------------|-----------|-------------|
-| Jaywalking | Model 3 | 0.905 | Strongest class across all models |
-| Waiting | Model 3 | 0.699 | Moderate — confused with stationary pedestrians |
-| Crossing | Model 3 | 0.735 | Improves significantly with longer training |
-| **Pedestrian** | Model 3 | **0.453** | ⚠️ Most struggled class across all models |
-
-The `pedestrian` class consistently underperformed due to semantic overlap with the other three behavioral classes — a stationary or moving pedestrian can visually resemble someone waiting, crossing, or jaywalking.
-
----
 
 ## 🛠️ Tech Stack
 
